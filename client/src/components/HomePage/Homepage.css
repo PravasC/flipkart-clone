@@ -1,0 +1,93 @@
+.HomePageWrapper{
+    width: 100%;
+    height: 100%;
+    padding-top: 55px;
+}
+
+.HomePage{
+    width: 100%;
+    height: 100%;
+}
+
+.CategoryHomePage{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px rgba(102, 102, 102, 0.829);
+}
+
+.CategoryPage{
+    display: flex;
+    justify-content: space-between;
+}
+
+.MainCatagoryDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.MainCategoryImg{
+    width: 70px;
+}
+
+.MainCategoryImg img{
+    width: 100%;
+}
+
+.MainCatagoryDiv:hover > .MainCategoryName{
+    color: #3498db;
+}
+
+.HomePageSliderWrapper{
+    margin-top: 20px;
+    
+}
+
+.HomeCarosalSlider{
+    box-shadow: 1px 1px 3px rgba(102, 102, 102, 0.829);
+    /* z-index: -20; */
+}
+
+/* .HomePageLoadingSpinner{
+    position: relative;
+} */
+
+.HomeSpinner{
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    z-index: 100000;
+}
+
+.HomePageProducts{
+    /* background-color: aqua; */
+    width: 100%;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.Product__Wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: rgb(2, 36, 36);  */
+    /* /* margin: 0 auto; */
+    
+    /* min-width: 400px; */
+    /* max-width: 500px; */
+    z-index: -100px;
+}
+
+.Product__wrapper{
+    max-width: 300px;
+    margin:20px 20px;
+}

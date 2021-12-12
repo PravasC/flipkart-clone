@@ -1,0 +1,117 @@
+.Product__wrapper{
+    position: relative;
+    background-color: #fff;
+    min-width: 20%;
+    height: 500px;
+    margin: 0 20px;
+}
+
+.Product .Product__Image{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(172, 172, 172);
+}
+
+.Product .Product__Image img{
+    width: auto;
+    max-height: 90%;
+    max-width: 100%;
+}
+
+.Product__Rating i{
+    color: gold;
+}
+
+/* .Product__Name{
+
+} */
+
+.Producat__Content{
+    width: 100%;
+    /* height: 100%; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end; */
+    /* background-color: aqua; */
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+}
+
+.Product__Price{
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.Product__Name{
+    height: 60px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: black;
+}
+
+.ProductDetailsWrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+.ProductDetials{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.ProductDetialsLeftSide{
+    flex: 0.5;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ProductDetialsRightSide{
+    flex: 1;
+    /* background-color: blueviolet; */
+    overflow: hidden;
+}
+
+.ProductDetialsRightSideParam{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(122, 122, 122);
+}
+
+.ProductDetailsPrice , .ProductDetailsOffers{
+    font-weight: 700;
+}
+.ProductDetialsLeftSideButtons button{
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+}
+
+.ProductDetialsLeftSideButtons .buttonOne{
+    margin:0 20px;
+    background-color: #d35400;
+
+}
+.ProductDetialsLeftSideButtons .buttonTwo{
+    margin:0 20px;
+    background-color: #c0392b;
+}
+
+.ProductDetialsLeftSideButtons .buttonOne:hover{
+    background-color: #e67e22;
+}
+
+.ProductDetialsLeftSideButtons .buttonTwo:hover{
+    background-color: #e74c3c;
+}
