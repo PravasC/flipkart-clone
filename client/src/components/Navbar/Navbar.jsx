@@ -2,10 +2,15 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import MainLogo from '../../images/flipkart-logo.png';
 import { NavLink } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 function Navbar() {
 
     const [mousehover, setmousehover] = useState(false);
+
+    const userVerifyData = useSelector(state => state.userVerifyData);
+
+    const {loading,userVerify} = userVerifyData;
 
     return (
        <>

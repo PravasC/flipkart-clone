@@ -7,11 +7,13 @@ import CategoryMain from '../../Productinfo';
 import CategoryHome from './CategoryHome';
 import HompageSlider from './HompageSlider';
 import Spiner from './Spiner';
+import { signinverify } from '../../actions/userAction';
 
 
 function HomePage() {
 
     const ProuctList = useSelector(state => state.productList);
+    const userVerify = useSelector(state => state.userVerify);
     const { loading, product, error } = ProuctList;
 
     // const AllProductRes = async() =>{
@@ -36,6 +38,7 @@ function HomePage() {
     useEffect(() => {
 
         dispatch(listProduct());
+        dispatch(signinverify());
 
         // AllProductRes();
 
